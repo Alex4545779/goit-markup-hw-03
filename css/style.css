@@ -25,6 +25,7 @@ p {
 .header > .container {
   display: flex;
   align-items: center;
+  border-bottom: 1px solid #ececec;
 }
 /* logo */
 .logo-1 {
@@ -238,6 +239,10 @@ p {
   font-size: 16px;
   line-height: 26px;
   color: #212121;
+  border-radius: 4px;
+  cursor: pointer;
+  border-radius: 4px;
+  padding: 6px 22px;
 }
 
 .filters button:hover,
@@ -260,4 +265,47 @@ p {
   font-size: 16px;
   line-height: 30px;
   color: #757575;
+}
+
+.filters-list {
+  display: flex;
+  padding-top: 94px;
+  padding-bottom: 50px;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  justify-content: center;
+}
+
+.filters-list > .button-filters:not(:last-child) {
+  margin-right: 8px;
+}
+
+.content {
+  flex-wrap: wrap;
+  flex-basis: calc((100%-66px / 3));
+  display: flex;
+  padding-bottom: 94px;
+}
+
+.content-card {
+  margin-right: 30px;
+  padding-bottom: 30px;
+  /* border: 1px solid #eeeeee;
+  box-sizing: border-box; */
+}
+
+.content-card:nth-child(3n) {
+  margin-right: 0;
+}
+
+.card-img {
+  padding-bottom: 20px;
+}
+
+.content-text {
+  padding-bottom: 20px;
+  padding-left: 24px;
+}
+
+.content-title {
+  padding-left: 24px;
 }
