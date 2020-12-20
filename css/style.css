@@ -1,0 +1,154 @@
+.page {
+  font-family: roboto;
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+/* logo */
+.logo-1 {
+  font-family: Raleway;
+  text-decoration: none;
+  color: #2196f3;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 31px;
+}
+.part-logo {
+  color: #212121;
+}
+.part-logo-1 {
+  color: #ffffff;
+}
+/* site nav */
+.site-nav a {
+  color: #212121;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+}
+
+.site-nav a:hover,
+.site-nav a:focus {
+  color: #2196f3;
+}
+
+/* contacts*/
+.contacts a {
+  color: #757575;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+}
+.contacts a:hover,
+.contacts a:focus {
+  color: #2196f3;
+}
+
+/* hero */
+.hero h1 {
+  background-color: #2f303a;
+  color: #ffffff;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 60px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.button {
+  background-color: #2196f3;
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 30px;
+}
+/* section*/
+.section-title {
+  color: #212121;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 42px;
+}
+
+.section-advantages h3 {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+  text-transform: uppercase;
+}
+
+.section-advantages h2 {
+  display: none;
+}
+.section-advantages p {
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  color: #757575;
+  text-transform: none;
+}
+
+.section-employees {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+}
+.section-employees p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: #757575;
+}
+/* footer*/
+.footer {
+  background-color: #2f303a;
+  color: #ffffff;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+}
+/* contacts-footer */
+.contacts-footer a {
+  color: #757575;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+}
+
+/* filters */
+
+.filters button {
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+  color: #212121;
+}
+
+.filters button:hover,
+.filters button:focus {
+  color: #ffffff;
+  background-color: #2196f3;
+}
+.filters h2 {
+  display: none;
+}
+
+.filters {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 36px;
+}
+
+.filters p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 30px;
+  color: #757575;
+}
