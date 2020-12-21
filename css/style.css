@@ -175,9 +175,6 @@ p {
 
 .section-employees {
   background-color: #f5f4fa;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 19px;
   text-align: center;
   padding-top: 94px;
   padding-bottom: 94px;
@@ -195,15 +192,21 @@ p {
   margin-right: 0;
 }
 .employees-name {
-  padding-top: 30px;
   padding-bottom: 10px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
 }
 .employees-text {
   font-weight: 400;
   font-size: 16px;
   line-height: 19px;
   color: #757575;
-  padding-bottom: 30px;
+}
+.desc {
+  display: flex;
+  flex-direction: column;
+  padding: 30px 0;
 }
 /* footer*/
 .footer {
